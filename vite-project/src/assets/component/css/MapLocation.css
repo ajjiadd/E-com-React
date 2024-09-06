@@ -1,0 +1,26 @@
+/* MapLocation.css */
+.map-location {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .map-location h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .map-location iframe {
+    border: 0;
+    width: 100%;
+    max-width: 800px; /* Adjust this to fit your layout */
+    height: 450px;
+    border-radius: 8px; /* Optional: Adds rounded corners */
+  }
+  
+  /* Optional: Add responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .map-location iframe {
+      height: 300px; /* Adjust height for smaller screens */
+    }
+  }
+  

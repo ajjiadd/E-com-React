@@ -1,0 +1,190 @@
+/* AboutPage.css */
+
+.about-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .intro {
+    text-align: center;
+  }
+  
+  .intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .our-story {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .our-story h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .our-story p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .our-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .team-member {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .values-culture {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .values-culture h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .values-culture ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .values-culture li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .achievements {
+    text-align: center;
+  }
+  
+  .achievements h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .achievements p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .our-approach {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .our-approach h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .our-approach p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .testimonials {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .testimonials h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  blockquote {
+    font-size: 16px;
+    color: #333;
+    border-left: 4px solid #007bff;
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  blockquote footer {
+    font-size: 14px;
+    color: #666;
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .contact-info {
+    text-align: center;
+  }
+  
+  .contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .cta {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .cta h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .cta .btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0056b3;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .cta .btn:hover {
+    background-color: #004494;
+  }
+  

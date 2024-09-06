@@ -1,0 +1,30 @@
+/* SearchBar.css */
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 100%; /* Ensures it does not exceed the container's width */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-bar .search-icon {
+  margin-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Optional: Add some styling to the search bar container */
+.main-content {
+  width: 75%; /* Ensure this matches with the grid-section width */
+  padding: 0 20px;
+}

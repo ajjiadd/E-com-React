@@ -1,0 +1,46 @@
+.shop-page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* Adjust height as needed */
+    
+  }
+  
+  .filter-section {
+    width: 20%; /* Adjusted filter width */
+    min-width: 200px; /* Ensures filter doesn't become too narrow on small screens */
+    background-color: #f9f9f9; /* Light background for filter */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .filter-section {
+    width: 25%;
+    padding: 20px;
+    background-color: #f4f4f4; /* Optional: Add background color for clarity */
+  }
+
+  .grid-section {
+    width: 75%;
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 20px;
+  }
+  
+  .grid-section {
+    flex: 1; /* Ensures the grid section takes remaining space */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between product cards */
+  }
+  
+  @media (max-width: 768px) {
+    .shop-page {
+      flex-direction: column; /* Stack filter and grid on smaller screens */
+    }
+  
+    .filter-section {
+      width: 100%; /* Filter takes full width on smaller screens */
+      margin-bottom: 20px;
+    }
+  }
+  
