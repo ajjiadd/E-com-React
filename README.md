@@ -26,23 +26,23 @@ To get started with this project, follow these steps:
 6. **Open your browser** and navigate to `http://localhost:3000` to see your application in action.
    
 ## Scripts
-`dev`: Starts the development server.
-`build`: Builds the application for production.
-`lint`: Runs ESLint to check for code quality issues.
-`preview`: Previews the production build.
+- `dev`: Starts the development server.
+- `build`: Builds the application for production.
+- `lint`: Runs ESLint to check for code quality issues.
+- `preview`: Previews the production build.
 
 ## Dependencies
 This project uses the following dependencies:
 
-`react`: A JavaScript library for building user interfaces.
-`react-dom`: Provides DOM-specific methods for React.
-`react-router-dom`: Declarative routing for React applications.
-`bootstrap`: A popular CSS framework for responsive design.
+- `react`: A JavaScript library for building user interfaces.
+- `react-dom`: Provides DOM-specific methods for React.
+- `react-router-dom`: Declarative routing for React applications.
+- `bootstrap`: A popular CSS framework for responsive design.
 
 ## Development Dependencies
-`vite`: A build tool that focuses on speed and performance.
-`eslint`: A tool for identifying and fixing problems in JavaScript code.
-`@vitejs/plugin-react`: Vite plugin for React support.
+- `vite`: A build tool that focuses on speed and performance.
+- `eslint`: A tool for identifying and fixing problems in JavaScript code.
+- `@vitejs/plugin-react`: Vite plugin for React support.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
